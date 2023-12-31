@@ -1,0 +1,27 @@
+{
+  "name": "10k-asg-solver",
+  "version": "1.0.0",
+  "description": "determines the most optimal route for SMB: Stardust's 10k all stunt goals run",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "npx prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehtropsmb/10k-asg-solver.git"
+  },
+  "author": "rehtrop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rehtropsmb/10k-asg-solver/issues"
+  },
+  "homepage": "https://github.com/rehtropsmb/10k-asg-solver#readme",
+  "dependencies": {
+    "javascript-lp-solver": "^0.4.24"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
