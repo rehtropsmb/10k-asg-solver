@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rehtropsmb/10k-asg-solver#readme",
   "dependencies": {
+    "convert-csv-to-json": "^2.48.0",
     "javascript-lp-solver": "^0.4.24",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
